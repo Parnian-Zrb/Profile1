@@ -4,7 +4,7 @@ import Form from "./components/Form";
 const App = () => {
   return (
     <div>
-      <Profile name={"Parnian Zarbafian"} image={""} skills={"Web developer"} />
+      <Profile name={"Parnian Zarbafian"} image={""} bio={"Web developer"} />
       <Form />
       <LinkButton
         href={"https://www.linkedin.com/in/parnian-zarbafian/"}

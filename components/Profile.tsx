@@ -3,16 +3,16 @@ import "./Profile.css";
 interface ProfileProps {
   name: string;
   image: string;
-  skills: string;
+  bio: string;
 }
-const Profile = ({ name, image, skills }: ProfileProps) => {
+const Profile = ({ name, image, bio }: ProfileProps) => {
   return (
     <div>
       <h1> Welcome to my profile</h1>
       {/* <img>My photo {image}</img> */}
       <img src="../../src/Pic.jpg" width="250" height="auto" /> {image}
       <p>my name is {name}</p>
-      <h2> Skills {skills}</h2>
+      <h2> Bio {bio}</h2>
     </div>
     //     <div>
     //       <h1>Profile</h1>
