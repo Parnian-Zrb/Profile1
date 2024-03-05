@@ -1,5 +1,5 @@
 import "./Profile.css";
-
+// import Profile
 interface ProfileProps {
   name: string;
   image: string;
@@ -9,8 +9,7 @@ const Profile = ({ name, image, bio }: ProfileProps) => {
   return (
     <div>
       <h1> Welcome to my profile</h1>
-      {/* <img>My photo {image}</img> */}
-      <img src="../../src/Pic.jpg" width="250" height="auto" /> {image}
+      <img src={image} width="250" height="auto" />
       <p>my name is {name}</p>
       <h2> Bio {bio}</h2>
     </div>
