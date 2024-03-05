@@ -1,11 +1,11 @@
 import Profile from "./components/Profile";
 import LinkButton from "./components/LinkButton";
-import Contact from "./components/Contact";
+import Form from "./components/Form";
 const App = () => {
   return (
     <div className="center">
       <Profile />
-      <Contact />
+      <Form />
       <LinkButton href={"www.google.com"} label={"Google"} />
     </div>
   );
