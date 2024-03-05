@@ -41,8 +41,8 @@ const Form = () => {
         <br />
 
         <button
-          onClick={handleClick}
           type="submit"
+          onClick={handleClick}
           disabled={message.length <= 10}
         >
           Submit
