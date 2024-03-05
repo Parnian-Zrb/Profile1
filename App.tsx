@@ -6,8 +6,19 @@ import Pic from "./Pic.jpg";
 const App = () => {
   return (
     <div>
-      <Profile name={"Parnian Zarbafian"} image={Pic} bio={"Web developer"} />
+      <Profile
+        name={"Parnian Zarbafian"}
+        image={Pic}
+        bio={
+          "Hi, My name is Parnian. I am a jounior web developer based in Toronto, canada."
+        }
+      />
+      <br />
+      <h2>Contact Me </h2>
+      <br />
       <Form />
+      <br />
+      <br />
       <LinkButton
         href={"https://www.linkedin.com/in/parnian-zarbafian/"}
         label={"LinkedIn"}
