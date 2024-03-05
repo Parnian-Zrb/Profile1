@@ -10,6 +10,7 @@ const Profile = ({ name, image, bio }: ProfileProps) => {
     <div>
       <h1> Welcome to my profile</h1>
       <img src={image} width="250" height="auto" />
+      <br />
       <p>my name is {name}</p>
       <h2> Bio {bio}</h2>
     </div>
