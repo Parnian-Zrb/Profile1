@@ -15,7 +15,6 @@ const Profile = () => {
       </div>
       <h2>Biography</h2>
       <p>
-        {" "}
         I am a web developer with experience in HTML, CSS, JavaScript and
         React.js. In my free time I enjoy taking photos.
       </p>

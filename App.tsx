@@ -1,16 +1,14 @@
-import Profile from "./components/Profile"
-import LinkButtons from "./components/LinkButtons"
-import Contact from "./components/Contact"
+import Profile from "./components/Profile";
+import LinkButton from "./components/LinkButton";
+import Contact from "./components/Contact";
 const App = () => {
   return (
     <div className="center">
-      <Profile/>
+      <Profile />
       <Contact />
-      <LinkButtons/>
-      
-      
+      <LinkButton href={"www.google.com"} label={"Google"} />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
