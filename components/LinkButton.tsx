@@ -1,4 +1,4 @@
-import "./LinkButtons.css";
+import "./LinkButton.css";
 
 interface LinkButtonProps {
   href: string;
