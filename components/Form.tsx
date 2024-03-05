@@ -40,7 +40,13 @@ const Form = () => {
         />
         <br />
 
-        <button onClick={handleClick}> Submit</button>
+        <button
+          onClick={handleClick}
+          type="submit"
+          disabled={message.length <= 10}
+        >
+          Submit
+        </button>
       </form>
     </div>
   );
