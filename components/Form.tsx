@@ -22,21 +22,21 @@ const Form = () => {
           type="text"
           value={name}
           placeholder="Name"
-          onChange={(e) => setName(e.target.value)}
+          onChange={(event) => setName(event.target.value)}
         />
         <br />
         <input
           type="text"
           value={email}
           placeholder="Email"
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={(event) => setEmail(event.target.value)}
         />
         <br />
         <input
           type="text"
           value={message}
           placeholder="Type Your  Message Here..."
-          onChange={(e) => setMessage(e.target.value)}
+          onChange={(event) => setMessage(event.target.value)}
         />
         <br />
 
