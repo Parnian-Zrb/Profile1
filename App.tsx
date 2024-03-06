@@ -1,7 +1,7 @@
 import Profile from "./components/Profile";
 import LinkButton from "./components/LinkButton";
 import Form from "./components/Form";
-import Pic from "./Pic.jpg";
+import Pic from "./assets/Pic.jpg";
 
 const App = () => {
   return (
